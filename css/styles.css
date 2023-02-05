@@ -69,8 +69,17 @@ ul a {
 .hero-button:hover {
   background-color: #404bbf;
 }
-.title-benefits {
-  color: transparent;
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .heading-benefits {
   color: #2e2f42;
@@ -125,9 +134,6 @@ ul a {
 }
 .logo-lower {
   color: #f4f4fd;
-}
-.hero-portfolio {
-  color: transparent;
 }
 .button-portfolio {
   color: #4d5ae5;
