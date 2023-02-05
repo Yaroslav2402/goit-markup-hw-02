@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #2E2F42;
+    background-color: #E5E5E5;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.logo-first {
+color: #4D5AE5;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+}
+.logo-second {
+    color: #2E2F42;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+}
+.hero-background {
+    background-color: #2E2F42;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.header-link {
+    color: #2E2F42;
+}
+.header-link:hover {
+    color: #404BBF;
+}
+.header-address {
+    color: #434455;
+}
+.header-address:hover {
+    color: #404BBF;
+}
+.title-button {
+background-color:#4D5AE5;
+color: #FFFFFF;
+border-radius: 4px;
+}
+.title-button:hover {
+background-color: #404BBF;
+}
+.title-benefits {
+    color: transparent;
+}
+.heading-benefits {
+    color: #2E2F42;
+}
+.text-benefits {
+color: #434455;
+}
+.title-doing {
+    color: #2E2F42;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.title-team {
+    color: #2E2F42;
+}
+.heading-team {
+    color: #2E2F42;
+}
+.text-team {
+    color: #434455;
+}
+.text-footer {
+    color: #E7E9FC;
+}
+.logo-lower {
+    color: #F4F4FD;
+}
