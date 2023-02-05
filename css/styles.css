@@ -2,12 +2,16 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     color: #2E2F42;
-    background-color: #E5E5E5;
-    text-decoration: none;
 }
 ul {
     list-style-type: none;
 }
+ul a {
+text-decoration: none;
+}
+.border-box {
+    background-color: #FFFFFF;
+    }
 .logo-first {
 color: #4D5AE5;
 font-family: 'Raleway';
@@ -15,6 +19,7 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 21px;
+text-decoration: none;
 }
 .logo-second {
     color: #2E2F42;
@@ -24,28 +29,41 @@ line-height: 21px;
     font-size: 18px;
     line-height: 21px;
 }
-.hero-background {
+.hero-first {
     background-color: #2E2F42;
 }
 .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
     color: #FFFFFF;
 }
 .header-link {
     color: #2E2F42;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 .header-link:hover {
     color: #404BBF;
 }
 .header-address {
     color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 .header-address:hover {
     color: #404BBF;
 }
-.title-button {
+.hero-button {
 background-color:#4D5AE5;
 color: #FFFFFF;
 border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
 }
 .title-button:hover {
 background-color: #404BBF;
@@ -54,29 +72,68 @@ background-color: #404BBF;
     color: transparent;
 }
 .heading-benefits {
-    color: #2E2F42;
+    color: #2E2F42; 
 }
 .text-benefits {
 color: #434455;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
 }
 .title-doing {
     color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
 }
 .team {
     background-color: #F4F4FD;
 }
+.box-team {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;;
+}
 .title-team {
     color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
 }
 .heading-team {
     color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
 .text-team {
     color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 .text-footer {
     color: #E7E9FC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 .logo-lower {
     color: #F4F4FD;
+}
+.hero-portfolio {
+    color: transparent;
+}
+.button-portfolio {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.box-portfolio {
+background-color: #FFFFFF;    
+border: 1px solid #E7E9FC;
 }
