@@ -10,8 +10,6 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
   color: var(--color-primery);
 }
 ul {
@@ -29,7 +27,7 @@ ul a {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -42,7 +40,7 @@ ul a {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--color-background);
 }
@@ -60,7 +58,7 @@ ul a {
   color: var(--color-hover);
 }
 .header-address {
-  color: var(--color-secondary);
+  color: var(--color-logo-button);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -70,9 +68,13 @@ ul a {
 .header-address:hover {
   color: var(--color-hover);
 }
+.header-address:focus {
+  color: var(--color-background);
+  background-color: var(--color-hover);
+}
 .hero-button {
   background-color: var(--color-logo-button);
-  color: var(--color-bakground);
+  color: var(--color-background);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: "Roboto", sans-serif;
@@ -101,11 +103,13 @@ ul a {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 .text-benefits {
   color: var(--color-secondary);
   font-size: 16px;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .title-doing {
   font-weight: 700;
@@ -135,10 +139,13 @@ ul a {
 }
 .text-team {
   color: var(--color-secondary);
-  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .text-footer {
   color: var(--color-border);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .logo-lower {
   color: var(--color-background-sec);
@@ -147,6 +154,7 @@ ul a {
   color: var(--color-logo-button);
   background-color: var(--color-background-sec);
   border: 1px solid var(--color-border);
+  font-family: "Roboto", sans-serif;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -155,9 +163,11 @@ ul a {
   cursor: pointer;
 }
 .button-portfolio:hover {
-  background-color: var(--color-border);
+  color: var(--color-background);
+  background-color: var(--color-hover);
 }
 .button-portfolio:focus {
+  color: var(--color-background);
   background-color: var(--color-hover);
 }
 .box-portfolio {
@@ -172,4 +182,6 @@ ul a {
 }
 .box-filter {
   color: var(--color-secondary);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
